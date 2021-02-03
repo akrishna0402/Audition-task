@@ -61,10 +61,18 @@ li a {
     background-color: #324162;
     color: white;
     position: absolute;
+    width: 100px;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    padding-left: 10px;
 }
 .dropcontent a{
     display: inline block;
     color: white;
+    padding: 5px;
 }
 .dropdown:hover .dropcontent{
     display: inline-block;
@@ -73,7 +81,7 @@ li>a:hover{
     color: rgba(64, 96, 163, 0.8);
 }
 .slider {
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 30px;
 }
 
